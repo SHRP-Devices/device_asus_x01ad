@@ -29,8 +29,13 @@ PRODUCT_PACKAGES += \
     libcryptfs_hw
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X00P
-PRODUCT_NAME := omni_X00P
+PRODUCT_DEVICE := X01AD
+PRODUCT_NAME := omni_X01AD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_X00PD
+PRODUCT_MODEL := ASUS_X01AD
 PRODUCT_MANUFACTURER := asus
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.usb.controller=7000000.dwc3 \
+    sys.usb.rndis.func.name=rndis_bam \
+    sys.usb.rmnet.func.name=rmnet_bam

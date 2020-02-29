@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_X00P.mk
+	$(LOCAL_DIR)/omni_X01AD.mk

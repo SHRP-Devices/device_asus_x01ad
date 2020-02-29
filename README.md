@@ -1,24 +1,20 @@
-# Device Configuration For Asus Zenfone Max M1
+TWRP Device Tree for Asus Zenfone Max M2 (X01AD)
+===========================================
 
-## Spec Sheet
+The Asus Zenfone Max M2 (codenamed _"X01AD"_) is a mid-range smartphone from Asus.
+It was announced on December, 2018.
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 1.4 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
-| GPU                     | Adreno 505                        |
-| Memory                  | 3 GB                            |
-| Shipped Android Version | 8.0.0                             |
-| Storage                 | 32 GB                          |
-| MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4000 mAh (non-removable)          |
-| Dimensions              | 147.3 x 70.9 x 8.7 mm             |
-| Display                 | 720 x 1440 pixels, 5.45" IPS LCD   |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 8 MP , LED flash                              |
-| Release Date            | October 2018                         |
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)
+Chipset | Qualcomm SDM632 Snapdragon 632 (14 nm)
+GPU     | Adreno 506
+Shipped Android Version | 8.1.0
+Memory | 64 GB, 4 GB RAM or 32 GB, 3 GB RAM
+MicroSD | microSD, up to 512 GB (dedicated slot)
+Battery | Non-removable Li-Ion 4000 mAh battery
+Display | 6.26 inches, 97.8 cm2 (~80.9% screen-to-body ratio)
+Rear Camera  | 13 MP, f/1.8, 1.12µm, PDAF
+Front Camera  |  8 MP, f/2.0, 1.12µm
 
-## Device Picture
-
-![Zenfone Max M1](https://www.asus.com/media/IN/products/Av2HDWl1WLs1j7bm/P_setting_xxx_0_90_end_300.png "Zenfone Max M1")
-
+![Asus Zenfone Max M2](https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-m2-zb633kl-r.jpg "Asus Zenfone Max M2")

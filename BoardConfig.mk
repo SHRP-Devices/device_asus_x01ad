@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Android Open Source Project
+# Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,9 @@
 
 LOCAL_PATH := device/asus/X01AD
 
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := X01A_1,X01AD_1,X01A,X01AD,ASUS_X01A_1,ASUS_X01AD_1,ASUS_X01AD,ASUS_X01A
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -28,6 +31,8 @@ TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
+
+TARGET_USES_64_BIT_BINDER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm632
@@ -115,3 +120,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+#Ignore Missing Dependencies
+ALLOW_MISSING_DEPENDENCIES=true

@@ -159,4 +159,4 @@ SHRP_FLASH_MAX_BRIGHTNESS := 200
 SHRP_EDL_MODE := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 INC_IN_REC_MAGISK := true
-
+SHRP_OFFICIAL := true
